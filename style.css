@@ -1,11 +1,9 @@
-/* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -13,7 +11,6 @@ body {
   color: #fff;
 }
 
-/* Header/Navbar */
 header {
   display: flex;
   justify-content: space-between;
@@ -53,7 +50,6 @@ nav ul li a.active {
   color: #00aaff;
 }
 
-/* Hero Section */
 .hero {
   background: transparent;
   padding: 80px 10%;
@@ -112,7 +108,6 @@ nav ul li a.active {
   box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
 }
 
-/* Section Styling */
 section {
   padding: 60px 10%;
   background-color: transparent;
@@ -131,7 +126,6 @@ p {
   text-align: center;
 }
 
-/* Cards */
 .card-container {
   display: flex;
   gap: 30px;
@@ -156,14 +150,12 @@ p {
   box-shadow: 0 8px 20px rgba(0, 170, 255, 0.2);
 }
 
-/* Skills */
 #skills p {
   text-align: center;
   font-weight: 500;
   font-size: 1.1rem;
 }
 
-/* Contact Section */
 #contact {
   background-color: #222;
   padding: 60px 10%;
@@ -238,7 +230,6 @@ form button:hover {
   background-color: #e03a00;
 }
 
-/* Footer */
 footer {
   background-color: #111;
   color: white;
